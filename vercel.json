@@ -1,11 +1,4 @@
 {
-    "redirects": [
-        {
-            "source": "/comunidade-dev-em-dobro",
-            "destination": "/comunidade-dev-em-dobro/",
-            "permanent": false
-        }
-    ],
     "rewrites": [
         {
             "source": "/comunidade-dev-em-dobro",
