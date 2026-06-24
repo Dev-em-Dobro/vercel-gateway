@@ -1,32 +1,54 @@
 {
-    "rewrites": [
+    "redirects": [
         {
             "source": "/comunidade-dev-em-dobro",
-            "destination": "https://szpc-comunidade-aberta.vercel.app"
+            "destination": "/comunidade-dev-em-dobro/",
+            "permanent": false
+        },
+        {
+            "source": "/evento",
+            "destination": "/evento/",
+            "permanent": false
+        },
+        {
+            "source": "/lista-de-espera",
+            "destination": "/lista-de-espera/",
+            "permanent": false
+        },
+        {
+            "source": "/pre-inscricao",
+            "destination": "/pre-inscricao/",
+            "permanent": false
+        }
+    ],
+    "rewrites": [
+        {
+            "source": "/comunidade-dev-em-dobro/",
+            "destination": "https://szpc-comunidade-aberta.vercel.app/"
         },
         {
             "source": "/comunidade-dev-em-dobro/:path*",
             "destination": "https://szpc-comunidade-aberta.vercel.app/:path*"
         },
         {
-            "source": "/evento",
-            "destination": "https://szpc-evento.vercel.app"
+            "source": "/evento/",
+            "destination": "https://szpc-evento.vercel.app/"
         },
         {
             "source": "/evento/:path*",
             "destination": "https://szpc-evento.vercel.app/:path*"
         },
         {
-            "source": "/lista-de-espera",
-            "destination": "https://szpc-lista-espera.vercel.app"
+            "source": "/lista-de-espera/",
+            "destination": "https://szpc-lista-espera.vercel.app/"
         },
         {
             "source": "/lista-de-espera/:path*",
             "destination": "https://szpc-lista-espera.vercel.app/:path*"
         },
         {
-            "source": "/pre-inscricao",
-            "destination": "https://szpc-grupo-pre-inscricao.vercel.app"
+            "source": "/pre-inscricao/",
+            "destination": "https://szpc-grupo-pre-inscricao.vercel.app/"
         },
         {
             "source": "/pre-inscricao/:path*",
