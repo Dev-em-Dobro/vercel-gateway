@@ -16,13 +16,13 @@
             "permanent": false
         },
         {
-            "source": "/pre-inscricao",
-            "destination": "/pre-inscricao/",
+            "source": "/grupo-pre-inscricao",
+            "destination": "/grupo-pre-inscricao/",
             "permanent": false
         },
         {
-            "source": "/recado-importante",
-            "destination": "/recado-importante/",
+            "source": "/recados-importantes",
+            "destination": "/recados-importantes/",
             "permanent": false
         }
     ],
@@ -52,19 +52,19 @@
             "destination": "https://szpc-lista-espera.vercel.app/:path*"
         },
         {
-            "source": "/pre-inscricao/",
+            "source": "/grupo-pre-inscricao/",
             "destination": "https://szpc-grupo-pre-inscricao.vercel.app/"
         },
         {
-            "source": "/pre-inscricao/:path*",
+            "source": "/grupo-pre-inscricao/:path*",
             "destination": "https://szpc-grupo-pre-inscricao.vercel.app/:path*"
         },
         {
-            "source": "/recado-importante/",
+            "source": "/recados-importantes/",
             "destination": "https://szpc-recado-importante.vercel.app/"
         },
         {
-            "source": "/recado-importante/:path*",
+            "source": "/recados-importantes/:path*",
             "destination": "https://szpc-recado-importante.vercel.app/:path*"
         }
     ]
