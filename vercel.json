@@ -26,8 +26,8 @@
             "permanent": false
         },
         {
-            "source": "/spzc-grupo-whatsapp-evento",
-            "destination": "/spzc-grupo-whatsapp-evento/",
+            "source": "/szpc-grupo-whatsapp-evento",
+            "destination": "/szpc-grupo-whatsapp-evento/",
             "permanent": false
         },
         {
@@ -103,12 +103,12 @@
             "destination": "https://szpc-recado-importante.vercel.app/:path*"
         },
         {
-            "source": "/spzc-grupo-whatsapp-evento/",
-            "destination": "https://spzc-grupo-whatsapp-evento.vercel.app/"
+            "source": "/szpc-grupo-whatsapp-evento/",
+            "destination": "https://szpc-grupo-whatsapp-evento.vercel.app/"
         },
         {
-            "source": "/spzc-grupo-whatsapp-evento/:path*",
-            "destination": "https://spzc-grupo-whatsapp-evento.vercel.app/:path*"
+            "source": "/szpc-grupo-whatsapp-evento/:path*",
+            "destination": "https://szpc-grupo-whatsapp-evento.vercel.app/:path*"
         },
         {
             "source": "/szpc-cronograma-evento/",
