@@ -26,18 +26,18 @@
             "permanent": false
         },
         {
-            "source": "/szpc-grupo-whatsapp-evento",
-            "destination": "/szpc-grupo-whatsapp-evento/",
+            "source": "/grupo-whatsapp-evento",
+            "destination": "/grupo-whatsapp-evento/",
             "permanent": false
         },
         {
-            "source": "/szpc-cronograma-evento",
-            "destination": "/szpc-cronograma-evento/",
+            "source": "/cronograma-evento",
+            "destination": "/cronograma-evento/",
             "permanent": false
         },
         {
-            "source": "/szpc-materiais-de-apoio",
-            "destination": "/szpc-materiais-de-apoio/",
+            "source": "/materiais-de-apoio",
+            "destination": "/materiais-de-apoio/",
             "permanent": false
         },
         {
@@ -103,27 +103,27 @@
             "destination": "https://szpc-recado-importante.vercel.app/:path*"
         },
         {
-            "source": "/szpc-grupo-whatsapp-evento/",
+            "source": "/grupo-whatsapp-evento/",
             "destination": "https://szpc-grupo-whatsapp-evento.vercel.app/"
         },
         {
-            "source": "/szpc-grupo-whatsapp-evento/:path*",
+            "source": "/grupo-whatsapp-evento/:path*",
             "destination": "https://szpc-grupo-whatsapp-evento.vercel.app/:path*"
         },
         {
-            "source": "/szpc-cronograma-evento/",
+            "source": "/cronograma-evento/",
             "destination": "https://szpc-cronograma-evento.vercel.app/"
         },
         {
-            "source": "/szpc-cronograma-evento/:path*",
+            "source": "/cronograma-evento/:path*",
             "destination": "https://szpc-cronograma-evento.vercel.app/:path*"
         },
         {
-            "source": "/szpc-materiais-de-apoio/",
+            "source": "/materiais-de-apoio/",
             "destination": "https://szpc-materiais-de-apoio.vercel.app/"
         },
         {
-            "source": "/szpc-materiais-de-apoio/:path*",
+            "source": "/materiais-de-apoio/:path*",
             "destination": "https://szpc-materiais-de-apoio.vercel.app/:path*"
         },
         {
