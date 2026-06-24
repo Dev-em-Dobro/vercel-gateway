@@ -24,6 +24,41 @@
             "source": "/recados-importantes",
             "destination": "/recados-importantes/",
             "permanent": false
+        },
+        {
+            "source": "/spzc-grupo-whatsapp-evento",
+            "destination": "/spzc-grupo-whatsapp-evento/",
+            "permanent": false
+        },
+        {
+            "source": "/szpc-cronograma-evento",
+            "destination": "/szpc-cronograma-evento/",
+            "permanent": false
+        },
+        {
+            "source": "/szpc-materiais-de-apoio",
+            "destination": "/szpc-materiais-de-apoio/",
+            "permanent": false
+        },
+        {
+            "source": "/nivel-1",
+            "destination": "/nivel-1/",
+            "permanent": false
+        },
+        {
+            "source": "/nivel-2",
+            "destination": "/nivel-2/",
+            "permanent": false
+        },
+        {
+            "source": "/nivel-3",
+            "destination": "/nivel-3/",
+            "permanent": false
+        },
+        {
+            "source": "/nivel-4",
+            "destination": "/nivel-4/",
+            "permanent": false
         }
     ],
     "rewrites": [
@@ -66,6 +101,82 @@
         {
             "source": "/recados-importantes/:path*",
             "destination": "https://szpc-recado-importante.vercel.app/:path*"
+        },
+        {
+            "source": "/spzc-grupo-whatsapp-evento/",
+            "destination": "https://spzc-grupo-whatsapp-evento.vercel.app/"
+        },
+        {
+            "source": "/spzc-grupo-whatsapp-evento/:path*",
+            "destination": "https://spzc-grupo-whatsapp-evento.vercel.app/:path*"
+        },
+        {
+            "source": "/szpc-cronograma-evento/",
+            "destination": "https://szpc-cronograma-evento.vercel.app/"
+        },
+        {
+            "source": "/szpc-cronograma-evento/:path*",
+            "destination": "https://szpc-cronograma-evento.vercel.app/:path*"
+        },
+        {
+            "source": "/szpc-materiais-de-apoio/",
+            "destination": "https://szpc-materiais-de-apoio.vercel.app/"
+        },
+        {
+            "source": "/szpc-materiais-de-apoio/:path*",
+            "destination": "https://szpc-materiais-de-apoio.vercel.app/:path*"
+        },
+        {
+            "source": "/nivel-1/",
+            "destination": "https://szpc-niveis.vercel.app/nivel-1/"
+        },
+        {
+            "source": "/nivel-1/:path*",
+            "destination": "https://szpc-niveis.vercel.app/nivel-1/:path*"
+        },
+        {
+            "source": "/nivel-2/",
+            "destination": "https://szpc-niveis.vercel.app/nivel-2/"
+        },
+        {
+            "source": "/nivel-2/:path*",
+            "destination": "https://szpc-niveis.vercel.app/nivel-2/:path*"
+        },
+        {
+            "source": "/nivel-3/",
+            "destination": "https://szpc-niveis.vercel.app/nivel-3/"
+        },
+        {
+            "source": "/nivel-3/:path*",
+            "destination": "https://szpc-niveis.vercel.app/nivel-3/:path*"
+        },
+        {
+            "source": "/nivel-4/",
+            "destination": "https://szpc-niveis.vercel.app/nivel-4/"
+        },
+        {
+            "source": "/nivel-4/:path*",
+            "destination": "https://szpc-niveis.vercel.app/nivel-4/:path*"
+        },
+        {
+            "source": "/assets/:path*",
+            "destination": "https://szpc-niveis.vercel.app/assets/:path*"
+        },
+        {
+            "source": "/api/whatsapp-evento",
+            "destination": "https://szpc-niveis.vercel.app/api/whatsapp-evento"
+        },
+        {
+            "source": "/api/whatsapp-pre-inscricao",
+            "destination": "https://szpc-niveis.vercel.app/api/whatsapp-pre-inscricao"
+        },
+        {
+            "source": "/api/schedule-config",
+            "destination": "https://szpc-niveis.vercel.app/api/schedule-config"
+        },
+        {
+            "source": "/config/:path*",
+            "destination": "https://szpc-niveis.vercel.app/config/:path*"
         }
     ]
 }
