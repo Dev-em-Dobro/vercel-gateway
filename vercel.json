@@ -19,6 +19,11 @@
             "source": "/pre-inscricao",
             "destination": "/pre-inscricao/",
             "permanent": false
+        },
+        {
+            "source": "/recado-importante",
+            "destination": "/recado-importante/",
+            "permanent": false
         }
     ],
     "rewrites": [
@@ -53,6 +58,14 @@
         {
             "source": "/pre-inscricao/:path*",
             "destination": "https://szpc-grupo-pre-inscricao.vercel.app/:path*"
+        },
+        {
+            "source": "/recado-importante/",
+            "destination": "https://szpc-recado-importante.vercel.app/"
+        },
+        {
+            "source": "/recado-importante/:path*",
+            "destination": "https://szpc-recado-importante.vercel.app/:path*"
         }
     ]
 }
