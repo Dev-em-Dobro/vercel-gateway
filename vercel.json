@@ -11,6 +11,11 @@
             "permanent": false
         },
         {
+            "source": "/evento/obrigado",
+            "destination": "/evento/obrigado/",
+            "permanent": false
+        },
+        {
             "source": "/lista-de-espera",
             "destination": "/lista-de-espera/",
             "permanent": false
