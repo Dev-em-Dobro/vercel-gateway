@@ -12,7 +12,12 @@
         },
         {
             "source": "/evento/obrigado",
-            "destination": "/evento/obrigado/",
+            "destination": "/evento/obrigado/index.html",
+            "permanent": false
+        },
+        {
+            "source": "/evento/obrigado/",
+            "destination": "/evento/obrigado/index.html",
             "permanent": false
         },
         {
@@ -78,6 +83,14 @@
         {
             "source": "/evento/",
             "destination": "https://szpc-evento.vercel.app/"
+        },
+        {
+            "source": "/evento/obrigado",
+            "destination": "https://szpc-evento.vercel.app/obrigado/index.html"
+        },
+        {
+            "source": "/evento/obrigado/",
+            "destination": "https://szpc-evento.vercel.app/obrigado/index.html"
         },
         {
             "source": "/evento/:path*",
