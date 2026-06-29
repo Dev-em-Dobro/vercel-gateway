@@ -69,6 +69,11 @@
             "source": "/nivel-4",
             "destination": "/nivel-4/",
             "permanent": false
+        },
+        {
+            "source": "/em-breve",
+            "destination": "/em-breve/",
+            "permanent": false
         }
     ],
     "rewrites": [
@@ -177,6 +182,14 @@
             "destination": "https://szpc-niveis.vercel.app/nivel-4/:path*"
         },
         {
+            "source": "/em-breve/",
+            "destination": "https://szpc-niveis.vercel.app/em-breve/"
+        },
+        {
+            "source": "/em-breve/:path*",
+            "destination": "https://szpc-niveis.vercel.app/em-breve/:path*"
+        },
+        {
             "source": "/assets/:path*",
             "destination": "https://szpc-niveis.vercel.app/assets/:path*"
         },
@@ -191,6 +204,10 @@
         {
             "source": "/api/schedule-config",
             "destination": "https://szpc-niveis.vercel.app/api/schedule-config"
+        },
+        {
+            "source": "/api/video",
+            "destination": "https://szpc-niveis.vercel.app/api/video"
         },
         {
             "source": "/config/:path*",
