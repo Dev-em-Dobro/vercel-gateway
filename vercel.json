@@ -194,6 +194,10 @@
             "destination": "https://szpc-niveis.vercel.app/assets/:path*"
         },
         {
+            "source": "/assets-evento/:path*",
+            "destination": "https://szpc-niveis.vercel.app/assets-evento/:path*"
+        },
+        {
             "source": "/api/whatsapp-evento",
             "destination": "https://szpc-niveis.vercel.app/api/whatsapp-evento"
         },
