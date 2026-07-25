@@ -74,6 +74,11 @@
             "source": "/em-breve",
             "destination": "/em-breve/",
             "permanent": false
+        },
+        {
+            "source": "/aula-exclusiva",
+            "destination": "/aula-exclusiva/",
+            "permanent": false
         }
     ],
     "rewrites": [
@@ -216,6 +221,14 @@
         {
             "source": "/config/:path*",
             "destination": "https://szpc-niveis.vercel.app/config/:path*"
+        },
+        {
+            "source": "/aula-exclusiva/",
+            "destination": "https://aula-exclusiva.vercel.app/"
+        },
+        {
+            "source": "/aula-exclusiva/:path*",
+            "destination": "https://aula-exclusiva.vercel.app/:path*"
         }
     ]
 }
